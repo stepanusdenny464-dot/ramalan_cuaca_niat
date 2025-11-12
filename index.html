@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ramalan Cuaca</h1>
+        <p>By Denny</p>
+    </header>
+    <main>
+        <form id="kirim_data">
+        <label for="input">Silahkan Masukan Tempat:</label>
+        <input id="input">
+        <button type="submit">Kirim</button>
+        </form>
+        <table>
+            <tr>
+                <th>Nama Kota</th>
+                <td id="kota">None</td>
+            </tr>
+            <tr>
+                <th>Suhu (°C)</th>
+                <td id="suhu">None</td>
+            </tr>
+            <tr>
+                <th>Deskripsi Cuaca</th>
+                <td id="cuaca">None</td>
+            </tr>
+            <tr>
+                <th>Kelembapan</th>
+                <td id="kelembapan">None</td>
+            </tr>
+            <tr>
+                <th>Kecepatan Angin</th>
+                <td id="angin">None</td>
+            </tr>
+            <tr>
+                <th>Negara</th>
+                <td id="negara">None</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <ul>
+            <li>&copy; 2025 Ramalan Cuaca by Denny</li>
+            <li>Github: <a href="https://github.com/stepanusdenny464-dot">https://github.com/stepanusdenny464-dot</a></li>
+            <li>Data cuaca berasal dari OpenWeather API</li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
