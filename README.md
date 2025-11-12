@@ -24,17 +24,3 @@ CSS3 — gaya tampilan (opsional, bisa minimalis)
 JavaScript (ES6+) — logic utama: fetch, async/await, try/catch
 
 OpenWeatherMap API — sumber data cuaca
-
-⚙️ Cara Jalanin
-
-Buat akun di OpenWeatherMap
- dan salin API Key-mu.
-
-Buka file script.js dan ganti bagian ini:
-
-const apiKey = "YOUR_API_KEY_HERE";
-
-
-Jalankan file index.html di browser.
-
-Masukkan nama kota → tekan Cari → lihat hasilnya.
