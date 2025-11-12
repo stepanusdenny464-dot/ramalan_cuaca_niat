@@ -9,7 +9,7 @@ document.getElementById("kirim_data").addEventListener("submit",(e)=>{
 async function cari(){
     try{
     let kota=formnya.value;
-    let conect=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${kota}&appid=24d468c53d139a5c30f43e4076a16d77`);
+    let conect=await fetch(key);
     let data=await conect.json();
     document.getElementById("kota").innerText=data.name
     document.getElementById("suhu").innerText=data.main.temp
